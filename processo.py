@@ -36,5 +36,5 @@ while(cap.isOpened()):
 
     cv2.imshow('gray',gray)
     cv2.imshow("frame",frame)
-    if cv2.waitKey(30) & 0xFF ==ord("q"):
+    if cv2.waitKey(80) & 0xFF ==ord("q"):
         break
